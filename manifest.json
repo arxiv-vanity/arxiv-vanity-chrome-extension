@@ -16,7 +16,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://*.arxiv.org/*"],
+      "matches": ["*://*.arxiv.org/abs/*"],
       "js": ["arxivvanitymod.js"]
     }
   ]
