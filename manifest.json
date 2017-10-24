@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Arxiv Vanity Plugin",
+  "description": "This extension provides an arxiv vanity link directly on an accessed arxiv page.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "arxivchrome.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "*://*.arxiv.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.arxiv.org/*"],
+      "js": ["arxivvanitymod.js"]
+    }
+  ]
+}
