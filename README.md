@@ -1,14 +1,7 @@
-# Chrome-Arxiv-Vanity
+## Chrome-Arxiv-Vanity
 
-An extension that provides an [Arxiv Vanity](https://www.arxiv-vanity.com) link directly on an accessed arxiv page.
+An extension that provides an [Arxiv Vanity](https://www.arxiv-vanity.com) link directly on an accessed arxiv paper page.
 
-# Installation (unofficial)
+## Installation and Usage
 
-1. Clone this repo.
-2. Open the [chrome://extensions](chrome://extensions) page.
-3. Check the *Developer Mode* box on the top of the page.
-4. Click "Load unpacked extension..." and select the repo folder.
-
-# Usage
-
-Navigate to any [arxiv.org][arxiv] paper, click the "Arxiv Vanity" link the the downloads section.
+Navigate to the [chrome web store](https://chrome.google.com/webstore/detail/arxiv-vanity-plugin/jfnlkegibnoaagfdabjkchhocdhnoofk) and install the extension. Then when you browse to any [arxiv.org](arxiv.org) paper, click the "Arxiv Vanity" link the the downloads section.
