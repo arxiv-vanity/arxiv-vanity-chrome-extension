@@ -5,7 +5,7 @@ for (i = 0; i < c.length; i++) {
     if(c[i].nodeName == "UL") {
         var node = document.createElement("LI");
         var link = document.createElement("A");
-        var t = document.createTextNode("Arxiv Vanity");
+        var t = document.createTextNode("Web on arXiv Vanity");
         // get url, extract arxiv id
         url = window.location.href
         re = /(\d+\.\d+v?\d)/i
