@@ -3,7 +3,7 @@
 
   "name": "arXiv Vanity",
   "description": "Add an arXiv Vanity link to arXiv abstract pages.",
-  "version": "1.1",
+  "version": "1.2.0",
 
   "icons": {
     "128": "logo.png"
