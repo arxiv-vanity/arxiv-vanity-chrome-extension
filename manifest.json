@@ -13,7 +13,6 @@
   },
   "permissions": [
     "activeTab",
-    "tabs",
     "*://*.arxiv.org/*"
   ],
   "content_scripts": [
